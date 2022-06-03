@@ -1,0 +1,2 @@
+rgname="devrg"
+rglocation="westus"
