@@ -1,2 +1,2 @@
-rgname="qarg"
+rgname="qatestrg"
 rglocation="eastus2"

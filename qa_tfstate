@@ -1,11 +1,11 @@
 {
   "version": 4,
-  "terraform_version": "0.14.2",
-  "serial": 1,
-  "lineage": "c88e7653-9c70-4c3c-3b89-0673edf4f9d4",
+  "terraform_version": "1.2.2",
+  "serial": 4,
+  "lineage": "e82ec5fe-f6e2-0cd1-dc7c-683f3c06e3e3",
   "outputs": {
     "resource_group_name": {
-      "value": "qarg",
+      "value": "qatestrg",
       "type": "string"
     }
   },
@@ -19,9 +19,9 @@
         {
           "schema_version": 0,
           "attributes": {
-            "id": "/subscriptions/385cbfe4-ef98-4c30-b9e0-86286a87ca4b/resourceGroups/qarg",
+            "id": "/subscriptions/385cbfe4-ef98-4c30-b9e0-86286a87ca4b/resourceGroups/qatestrg",
             "location": "eastus2",
-            "name": "qarg",
+            "name": "qatestrg",
             "tags": null,
             "timeouts": null
           },
