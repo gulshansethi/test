@@ -21,7 +21,7 @@ steps:
     targetType: 'inline'
     failOnStderr: true
     script: |
-      result=$(curl -s -o /dev/null -w "%{http_code}" www.bing123asd.com/)
+      result=$(curl -s -o /dev/null -w "%{http_code}" www.bing.com/)
 
       if [ "$result" == "200" ]
       then
