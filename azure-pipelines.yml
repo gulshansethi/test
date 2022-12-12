@@ -10,8 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
@@ -23,7 +21,7 @@ steps:
     targetType: 'inline'
     failOnStderr: true
     script: |
-      result=$(curl -s -o /dev/null -w "%{http_code}" www.bing.com/)
+      result=$(curl -s -o /dev/null -w "%{http_code}" www.bing123asd.com/)
 
       if [ "$result" == "200" ]
       then
@@ -32,3 +30,6 @@ steps:
       echo $result
       exit 1
       fi
+
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
